@@ -5,6 +5,8 @@
 #include <utility>
 #include <typeinfo>
 
+// Declaration
+
 template <typename T>
 void Serialize(T pod, std::ostream& out);
 
